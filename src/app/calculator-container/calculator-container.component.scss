@@ -1,0 +1,39 @@
+.calculator {
+  background-color: white;
+  position: relative;
+  margin: 7% auto auto auto;
+  width: 400px;
+  text-align: center;
+  border-color: violet;
+  border-radius: 20px;
+
+  .result {
+    border-radius: 8px;
+  }
+
+  .button {
+    border-radius: 8px;
+    width: 80px;
+    height: 65px;
+    font-size: 1em;
+    border: 2px solid black;
+    margin: 2px 2px 8px 2px;
+    transition-duration: 0.4s;
+  }
+
+  .long {
+    width: 170px;
+  }
+
+  .responsive:hover {
+    background-color: blanchedalmond;
+    color: brown;
+
+    .input {
+      width: 350px;
+      height: 60px;
+      text-align: right;
+      font-size: 1.7em;
+    }
+  }
+}
