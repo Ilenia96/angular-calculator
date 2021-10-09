@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./calculator-container.component.scss']
 })
 export class CalculatorContainerComponent implements OnInit {
-  longButtons: string[] = ['AC', 'CE'];
+  DButtons: string[] = ['AC', 'CE'];
   buttons: string [] = ['7', '8', '9', '/', '4', '5', '6', '*', '1', '2', '3', '-', '.', '0', '=', '+'];
 
   constructor() { }

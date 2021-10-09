@@ -1,17 +1,22 @@
 .calculator {
-  background-color: white;
+  background-color: rgb(179, 182, 216);
   position: relative;
-  margin: 7% auto auto auto;
-  width: 400px;
+  margin: 20px auto auto auto;
   text-align: center;
-  border-color: violet;
+  border: 2px solid black;
   border-radius: 20px;
+  height: 480px;
+  width: 400px;
 
   .result {
-    border-radius: 8px;
+    border-radius: 5px;
+    height: 60px;
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 10px;
   }
 
-  .button {
+  .responsive {
     border-radius: 8px;
     width: 80px;
     height: 65px;
@@ -19,6 +24,7 @@
     border: 2px solid black;
     margin: 2px 2px 8px 2px;
     transition-duration: 0.4s;
+    font-weight: 700;
   }
 
   .long {
@@ -26,8 +32,8 @@
   }
 
   .responsive:hover {
-    background-color: blanchedalmond;
-    color: brown;
+    background-color: rgb(149, 178, 211);
+    color: white;
 
     .input {
       width: 350px;
